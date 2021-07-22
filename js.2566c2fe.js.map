@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/index.js"],"names":["console","log","a"],"mappings":";AAAAA,QAAQC,IAAI,oBACZ,MAAMC,EAAI,EACVF,QAAQC,IADE","file":"js.2566c2fe.js","sourceRoot":"..\\src","sourcesContent":["console.log(\"This is my HW 10\");\r\nconst a = 1;\r\nconsole.log(a);\r\n"]}
