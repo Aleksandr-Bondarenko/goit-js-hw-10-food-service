@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/index.js"],"names":["console","log","a"],"mappings":";AAAAA,QAAQC,IAAI,oBACZ,MAAMC,EAAI,EACVF,QAAQC,IADE","file":"js.dfd2db6b.js","sourceRoot":"../src","sourcesContent":["console.log(\"This is my HW 10\");\nconst a = 1;\nconsole.log(a);\n"]}
