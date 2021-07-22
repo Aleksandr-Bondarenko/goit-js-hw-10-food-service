@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Home work 10 of JavaScript course",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   },
   "scripts": {
     "dev": "parcel -p 4140 src/index.html",
-    "build": "parcel src/index.html",
-    "prebuild": "rm -rf dist"
+    "build": "parcel src/index.html --public-url /goit-js-hw-10-food-service/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/Aleksandr-Bondarenko/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://github.com/Aleksandr-Bondarenko/goit-js-hw-10-food-service#readme"
+  "homepage": "https://Aleksandr-Bondarenko.github.io/goit-js-hw-10-food-service"
 }
